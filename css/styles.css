@@ -1,0 +1,197 @@
+body{
+    font-family: 'Ubuntu',sans-serif;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+
+/*------ title section section starts--- */
+
+#title{
+    background-color:#f48b29;
+}
+
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: black;
+}
+
+
+.container-fluid{
+    padding: 3% 10%;
+}
+
+/* ----- navbar starts ------  */
+
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+/* ----- navbar ends -----  */
+
+/* -------- the download buttons-------- */
+.btn-dark{
+    background-color: black;
+}
+
+
+.btn-dark:hover{
+    background-color: white;
+    color: black ;
+}
+
+.download{
+    margin: 5% 3% 5% 0;
+}
+
+/* ----- download button ends ---- */
+
+/* ----- title section image -----  */
+.iphone-image{
+    width: 60%;
+    transform: rotate(25deg);
+    border-radius: 12%;
+    position: absolute;
+    right: 25%;
+}
+
+@media (max-width: 995px){
+    .iphone-image{
+        width: 50%;
+        transform: none;
+        position: static;
+    }
+
+    #features{
+        position: static;
+    }
+
+    #title{
+        text-align: center;
+    }
+}
+/* ------- title section image------ */
+/* ----- title section ends ------  */
+
+/* ----- features section starts------ */
+#features{
+    background-color: #fbe6c2;
+    padding: 10% 10%;
+    position: relative;
+}
+
+
+.feature-col{
+    text-align: center;
+    line-height: 1.5;
+    color: #f48b29;
+}
+
+.feature-col>h3{
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.feature-col>p{
+    font-weight: lighter;
+}
+
+.feature-col:hover{
+    color: black;
+}
+/* -------- features section ends----- */
+
+/* ----- testimonials and the press sections start-----  */
+
+#testimonials,#press{
+    background-color: #f48b29;
+}
+
+#testimonials{
+    text-align: center;
+    color: #fbe6c2;
+}
+
+.testimonial-img{
+    width: 120px;
+    border-radius:100% ;
+    margin: 20px;
+}
+
+#press{
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#press>img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 10% 10%;
+}
+
+/* ------ testimonials and press section ends ---- */
+
+/* --------pricing section starts-------- */
+#pricing{
+    background-color:#fbe6c2 ;
+    padding: 10% 10%;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+.card-header>h3{
+  font-weight: bold;
+}
+
+/* -------pricing section ends------- */
+
+/* cta , footer and the socials */
+#cta{
+    background-color: #f48b29;
+    padding: 10% 10%;
+    text-align: center;
+    
+}
+
+#cta>h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fbe6c2;
+}
+
+#footer{
+    padding: 5% 10%;
+    text-align: center;
+    background-color: #fbe6c2;
+}
+
+.socials{
+    margin: 2%;
+}
+
+.socials:hover{
+    color:#f48b29;
+}
